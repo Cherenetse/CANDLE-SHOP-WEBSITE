@@ -1,0 +1,320 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+*{
+    font-family: 'Indie-flower' , cursive;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.row .bgimage{
+    width: 100%;
+    height: 300px;
+    background-image:url(../images/background123.jpg);
+    background-size:cover;
+    border: 1.5px solid #FF1493;
+    position: center;
+    clearfix{
+    overflow:auto;
+}
+
+
+}
+
+
+.row .col-5 {
+    text-align: center;
+}
+.row .col-5 img{
+    display:inline-block;
+}
+.row .col-3 {
+    text-align: center;
+}
+.row .col-3 img{
+    display:inline-block;
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+.col-3 a{
+    text-decoration: none;
+    color:#FF1493;
+    text-align: center;
+}
+
+.col-4 {
+    width: 33.33%;
+    float:right;
+    column-span: 20px;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+.col-5 img{
+    border-radius: 50%;
+}
+
+.col-6 {
+    width: 50%;
+    align-content: center;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+.col-10{
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-10 p{
+    text-align: center;
+    size: 20%;
+}
+.col-10 a{
+    text-decoration: none;
+    color:#FF1493;
+}
+.col-5 a{
+    text-decoration: none;
+    color:#FF1493;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+    text-align: center;
+}
+.col-10 h1{
+    float:right;
+    margin-right: 10%;
+
+}
+
+}
+a{
+    height: 200px;
+    display: block;
+    color:#FF1493;
+    text-decoration: none;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+    text-align: center;
+}
+.col-12 a{
+    text-decoration: none;
+    color:#FF1493;
+    text-align: center;
+}
+.col-12 img{
+    border-radius: 50%;
+}
+
+.thumb-unit img{
+    width: 100%;
+    text-align: center;
+}
+h3{
+    width: 100%;
+    text-align: center;
+}
+
+.col-12 h2{
+    text-align: center;
+}
+.alt-section{
+        text-align: center;
+
+}
+.thumb-container{
+    max-width: 960px;
+    height: 500px;
+    margin:0px auto;
+    padding-bottom: 100px;
+    .clearfix{
+    overflow:hidden;
+    text-align:center;
+}
+}
+.thumb-unit{
+    display:block;
+    width:25%;
+    float:left;
+    padding-top:20%;
+    background-image: url(picture2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#FF1493;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 5%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+
+}
+.thumb-unit img{
+    display: block;
+    background-color:white;
+    color: white;
+    margin:0px;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    padding:10px 20px 15px 20px;
+    opacity: .01;
+
+    height: 100%;
+    transition: position ,scale .2s ease-in-out;
+
+
+}
+
+.thumb-unit:hover{
+
+    transform: scale(1.5);
+    position:relative;
+
+    z-index: 10;
+    font-size:10px;
+
+}
+
+
+img:hover{
+    opacity:0.5;
+    height: 100%;
+
+
+
+}
+}
+.thumb-overlay p{
+    overflow: none;
+}
+.thumb-unit a.thumb-overlay{
+    text-align: center;
+    text-decoration: none;
+}
+section{
+    height:500px;
+}
+form{
+    max-width:450px;
+    margin:0 auto 50px;
+}
+form input ,textarea{
+    border:1.5px solid;
+    border-color: #FF1493;
+    width: 100%;
+}
+form .contact-infogroup label{
+    width:50%;
+    padding-right:10%;
+    float:left;
+    box-sizing: border-box;
+
+}
+form label{
+    display: block;
+    margin-bottom:20px;
+
+}
+form label span{
+    display: block;
+    color: #FF1493;
+}
+footer{
+    width:100%;
+    height: 200px;
+    background-image:url(../images/background123.jpg);
+    background-size:cover;
+    border: 1.5px solid #FF1493;
+    position: center;
+    .clearfix{
+    overflow:auto;
+}
+footer .row .col-10 h1{
+    float:left;
+    margin-right:20px;
+}
+
+.{
+
+}
+
+.animated.slideInLeft{
+    max-width:100%;
+    height:auto;
+    text-align: center;
+
+}
+@media only screen and (max-width: 480px){
+    p{
+        background-color: none;
+    }
+    .row .bgimage{
+    width: 100%;
+    height: 100px;
+}
+.col-7 p{
+    #verflow: auto;
+}
+.row .col-5 img{
+    padding-left: 75px;
+}
+.thumb-container a.thumb-unit{
+    display:flex;
+    width:200%;
+    float: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.row .col-10 h2 p img{
+    position: absolute;
+    width:50%;
+    height:auto;
+
+}
+
+}
